@@ -9,7 +9,7 @@ class User extends Model
     protected $table = "users";
     public function profiles()
     {
-        return $this->belongsTo('App\Profile');
+        return $this->hasOne('App\Profile');
     }
     public function comments()
     {

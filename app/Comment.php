@@ -6,13 +6,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class Comment extends Model
 {
-    protected $table ="comments";
+    //protected $table ="comments";
     public function user()
     {
-        return $this->belongsTo('App\User','user_id','id');
+        return $this->belongsTo('App\User');
     }
     public function post()
     {
-        return $this->belongsTo('App\Post','post_id','id');
+        return $this->belongsTo('App\Post');
     }
 }
