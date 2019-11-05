@@ -13,7 +13,7 @@
  use App\Category;
 Route::get('/', function () {
     return view('welcome');
-    //yguygyuhiuhui
+   //asdasdhhjmoko,oi,ik8
 });
 
 Route::get('/hienthi','CategoryController@index');
