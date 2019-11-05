@@ -16,6 +16,7 @@ use App\Comment;
 use App\Category;
 Route::get('/', function () {
     return view('welcome');
+   //asdasdhhjmoko,oi,ik8
 });
 
 Route::get('/hienthi','CategoryController@index');
